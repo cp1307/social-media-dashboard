@@ -1,0 +1,183 @@
+body {
+  font-family: "Inter";
+  font-weight: 700;
+}
+
+h6 {
+  padding-bottom: 5px;
+  color: hsl(228, 12%, 44%);
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.light-bgc {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.dark-bgc {
+  background-color: hsl(230, 17%, 14%);
+}
+
+/*  sections */
+.title-section {
+  padding: 4% 8% 8%;
+}
+
+.light-theme {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.dark-theme {
+  background-color: hsl(232, 19%, 15%);
+}
+
+.first-section {
+  padding: 2% 8% 0;
+  position: relative;
+  bottom: 130px;
+}
+
+.second-section {
+  padding: 0 8% 4%;
+  position: relative;
+  bottom: 70px;
+}
+
+.top-heading {
+  font-family: "Inter";
+  font-weight: 700;
+}
+
+.sub-heading {
+  color: hsl(228, 12%, 44%);
+}
+
+.theme-changer {
+  text-align: right;
+}
+
+.dark-theme-text {
+  color: #fff;
+}
+
+/* cards */
+.first {
+  text-align: center;
+  border-top: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.followers {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.overview-bgc {
+  background-color: hsl(227, 47%, 96%);
+}
+
+.overview-bgc-dark {
+  background-color: hsl(228, 28%, 20%);
+}
+
+.gain {
+  color: hsl(163, 72%, 41%);
+}
+
+.loss {
+  color: hsl(356, 69%, 56%);
+}
+
+.fa-sort-up {
+  vertical-align: sub;
+}
+
+.card1 {
+  border-color: hsl(208, 92%, 53%);
+}
+
+.card2 {
+  border-color: hsl(203, 89%, 53%);
+}
+
+.card3 {
+  border-color: hsl(37, 97%, 70%);
+}
+
+.card4 {
+  border-color: hsl(348, 97%, 39%);
+}
+
+/* second section */
+.second-heading {
+  font-family: "Inter";
+  font-weight: 700;
+  padding-bottom: 2%;
+}
+
+.overview {
+  margin: 3%;
+}
+
+.overview-number {
+  font-size: 35px;
+}
+
+.right-icon {
+  text-align: right;
+  vertical-align: baseline;
+}
+
+.percentage {
+  margin-top: 29px;
+}
+
+/* fontawesome */
+.facebook {
+  color: hsl(208, 92%, 53%);
+  font-size: 20px;
+  vertical-align: sub;
+}
+
+.instagram {
+  font-size: 20px;
+  background: -webkit-linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  vertical-align: sub;
+}
+
+.twitter {
+  font-size: 20px;
+  color: hsl(203, 89%, 53%);
+  vertical-align: sub;
+}
+
+.youtube {
+  font-size: 20px;
+  color: hsl(348, 97%, 39%);
+  vertical-align: sub;
+}
+
+/* for mobile */
+@media (max-width:992px) {
+  .first-section {
+    bottom: 80px;
+  }
+
+  .first {
+    margin-bottom: 4%;
+  }
+}
