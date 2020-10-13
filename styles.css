@@ -181,7 +181,7 @@ h6 {
 /* for mobile */
 @media (max-width:992px) {
   .first-section {
-    bottom: 80px;
+    bottom: 60px;
   }
 
   .first {
